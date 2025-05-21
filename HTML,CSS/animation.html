@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  .circle{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background:linear-gradient(red,yellow,green);
+    transform: rotate3d();
+    box-shadow: 2px 2px 4px 3px black;
+  }
+  .circle1{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background:conic-gradient(red,yellow,green);
+    transform: rotate3d();
+    box-shadow: 2px 2px 4px 3px black;
+  }
+  .circle2{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background:radial-gradient(red,yellow,green);
+    transform: rotate3d();
+    box-shadow: 2px 2px 4px 3px black;
+  }
+  .fle{
+    display: flex;
+    margin: 10px;
+    gap: 20px;
+  }
+</style>
+<body>
+  <div class="fle">
+    <div class="circle"></div>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+  </div>
+</body>
+</html>
